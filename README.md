@@ -1,6 +1,6 @@
 # HRVN: Fake News Differs From the Truth in Writing Style Detecting Fake News by Hierarchical Recursive Neural Networks
 
-The implementation of HRVB in our paper: Fake News Differs From the Truth in Writing Style Detecting Fake News by Hierarchical Recursive Neural Networks
+The implementation of HRVN in our paper: Fake News Differs From the Truth in Writing Style Detecting Fake News by Hierarchical Recursive Neural Networks
 
 ## Require
 PyTorch >= 1.9.1
@@ -15,7 +15,12 @@ nltk >= 3.6.3
 3. For processing RST and CFT of ReCOVery dataset (or other news dataset), we use the code from the following website [Code for RST_and_CFG](https://pages.github.com/). Here we provide a simple example of the format of RST and CFG in the folder **/data/strtree_RST** and **/data/strtree_CFG**.
 
 ## Reproducing Results
-When preparing all the input data including words embedding file **glove.6B.100d.txt**, folder **/data/strtree_RST** and **/data/strtree_CFG**, we can use the following commnads
+1. When preparing all the input data including words embedding file **glove.6B.100d.txt**, folder **/data/strtree_RST** and **/data/strtree_CFG**, we can use the following commnads,
 
 
             python train.py
+            
+2. We can use pruning inside our method to decide width and depth by defining different max_depth and max_child, which is shown as the following commands,
+
+
+           python train.py --max_depth==50 --max_child==10
