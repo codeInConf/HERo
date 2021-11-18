@@ -1,6 +1,6 @@
 # HRVN: Fake News Differs From the Truth in Writing Style Detecting Fake News by Hierarchical Recursive Neural Networks
 
-The implementation of HRVN in our paper: Fake News Differs From the Truth in Writing Style Detecting Fake News by Hierarchical Recursive Neural Networks
+The implementation of HRVN in the paper: Fake News Differs From the Truth in Writing Style Detecting Fake News by Hierarchical Recursive Neural Networks
 
 ## Require
 PyTorch >= 1.9.1
