@@ -17,7 +17,7 @@ nltk >= 3.6.3
 4. Here we provide a simple example of the format of RST and CFG in the folder **/data/strtree_RST** and **/data/strtree_CFG**. We generate RST and CFG tree for the example news **Original_text_news_1.txt**, which finally produces news_1.txt (RST) and news_1.txt (CFG) in the folders **/data/strtree_RST** and **/data/strtree_CFG** respectively.
 
 ## Reproducing Results
-1. When preparing all the input data including words embedding file **glove.6B.100d.txt**, folder **/data/strtree_RST** and **/data/strtree_CFG**, we can use the following commnads,
+1. When getting all the input data including words embedding file **glove.6B.100d.txt**, folder **/data/strtree_RST** and **/data/strtree_CFG**, we can use the following commnads,
 
 
             python train.py
