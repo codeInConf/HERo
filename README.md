@@ -4,6 +4,7 @@ The implementation of HRVB in our paper: Fake News Differs From the Truth in Wri
 
 ## Require
 PyTorch >= 1.9.1
+
 nltk >= 3.6.3
 
 ## About input data
@@ -15,4 +16,6 @@ nltk >= 3.6.3
 
 ## Reproducing Results
 When preparing all the input data including words embedding file **glove.6B.100d.txt**, folder **/data/strtree_RST** and **/data/strtree_CFG**, we can use the following commnads
-      python train.py
+
+
+            python train.py
