@@ -14,7 +14,7 @@ nltk >= 3.6.3
 
 3. For processing RST and CFT of ReCOVery dataset (or other news dataset), we use the code from the following website [Generate RST and CFG tree](https://github.com/jiyfeng/DPLP).
 
-4.  Here we provide a simple example of the format of RST and CFG in the folder **/data/strtree_RST** and **/data/strtree_CFG**.
+4. Here we provide a simple example of the format of RST and CFG in the folder **/data/strtree_RST** and **/data/strtree_CFG**. We generate RST and CFG tree for the example news **Original_text_news_1.txt**, which finally produces news_1.txt (RST) and news_1.txt (CFG) in the folders **/data/strtree_RST** and **/data/strtree_CFG** respectively.
 
 ## Reproducing Results
 1. When preparing all the input data including words embedding file **glove.6B.100d.txt**, folder **/data/strtree_RST** and **/data/strtree_CFG**, we can use the following commnads,
