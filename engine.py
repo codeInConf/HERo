@@ -1,6 +1,7 @@
 import torch.optim as optim
 from util import *
 from model import *
+import numpy as np
 from sklearn.metrics import accuracy_score
 torch.autograd.set_detect_anomaly(True)
 
