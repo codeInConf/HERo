@@ -8,7 +8,7 @@ PyTorch >= 1.9.1
 nltk >= 3.6.3
 
 ## About input data
-1. We use the dataset ReCOVery as an example in the folder **ReCOVery** which has been split as training set, validation set and test set. For more detail about the ReCOVery dataset, you can refer to the webstite [ReCOVery](https://github.com/apurvamulay/ReCOVery)
+1. We use the dataset ReCOVery as an example in the folder **ReCOVery** which has been split as training set, validation set and test set. For more detail about the ReCOVery dataset, you can refer to the webstite [ReCOVery](https://github.com/apurvamulay/ReCOVery).
 
 2. We use **Stanford's GloVe 100d word embeddings** as word embedding in this paper, which is named as **glove.6B.100d.txt** in our code. The file of word embeddings can be downloaded from the webstite, [Glove.6b.100d](https://nlp.stanford.edu/projects/glove/).
 
